@@ -1,4 +1,4 @@
-package com.example.android.fragmentexample;
+package com.example.android.fragmentexample2;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,6 +16,10 @@ public class SimpleFragment extends Fragment {
 
     public SimpleFragment() {
         // Required empty public constructor
+    }
+
+    public static SimpleFragment newInstance(){
+        return new SimpleFragment();
     }
 
     @Override
